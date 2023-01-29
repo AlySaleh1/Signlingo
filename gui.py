@@ -22,9 +22,9 @@ def word_to_video(word):
     video_id = word_to_video_name_dict[word][0]
     filepath = 'data/' + word + '/' + video_id + '.mp4'
     cop = cv2.VideoCapture(filepath)
-    video = Tk()
+    # video = Tk()
     
-    video.title("video")
+    # video.title("video")
 
 
     if not cop.isOpened():
